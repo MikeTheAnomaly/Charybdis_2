@@ -12,6 +12,7 @@
 // };
 
 / {
+#if !defined(CONFIG_ZMK_SPLIT) || defined(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
     /* input config for mouse move mode */
     trackball_listener {
         compatible = "zmk,input-behavior-listener";
@@ -63,6 +64,7 @@
         #binding-cells = <1>;
         time-to-live-ms = <750>;
     };
+#endif
 
 #define DEF 0
 #define MOD 1
