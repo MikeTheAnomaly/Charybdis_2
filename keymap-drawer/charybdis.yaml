@@ -1,8 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  '0': [SPACE, Sft+ 1, Sft+ ', Sft+ 3, Sft+ 4, Sft+ 5, Sft+ 7, '''', Sft+ 9, Sft+ 0, Sft+ 8, Sft+ =, ',', '-', ., /, '0', '1', '2', '3', '4', '5', '6', '7', '8',
-    '9', Sft+ ;, ;, 'Sft+ ,', '=', Sft+ ., Sft+ /, Sft+ 2, Sft+ A, Sft+ B, Sft+ C, Sft+ D, Sft+ E, Sft+ F, Sft+ G, Sft+ H, Sft+ I, Sft+ J, Sft+ K, Sft+ L, Sft+ M,
-    Sft+ N, Sft+ O, Sft+ P, Sft+ Q, Sft+ R, Sft+ S, Sft+ T, Sft+ U, Sft+ V, Sft+ W]
+  '0': ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, \, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z, X,
+    C, V, B, N, M, ',', ., /, RSHIFT, SPACE, '1', LGUI, SPACE, BSPC, L CLK, LALT, RCLK]
   '1':
   - ESC
   - F1
@@ -16,7 +15,7 @@ layers:
   - F9
   - F11
   - +
-  - {t: ▽, type: trans}
+  - ZMK Studio
   - {t: ▽, type: trans}
   - Ctl+ PG UP
   - Ctl+ T
@@ -30,90 +29,90 @@ layers:
   - DEV TOOLS
   - {t: ▽, type: trans}
   - CAPS
-  - Alt+ LEFT
-  - Alt+ TAB
-  - Alt+ RIGHT
-  - VOL DN
-  - PG DN
   - LEFT
+  - TAB
+  - RIGHT
+  - VOL DN
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - NEXT
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+ W
-  - PP
-  - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
+  - {t: '2', h: toggle}
+  - DEL
+  - {type: held}
   - {t: ▽, type: trans}
   - DEL
+  - KP ENTER
   - {t: ▽, type: trans}
-  - {t: '2', h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RET
   - {t: ▽, type: trans}
   '2':
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BOOT LDR
-  - BOOT LDR
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: '2', h: toggle}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - T
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Y
+  - LSHIFT
+  - A
+  - S
+  - D
+  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - N
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - G
+  - SPACE
+  - H
+  - {t: '0', h: toggle}
+  - {t: ▽, type: trans}
+  - B
+  - M
+  - {t: ▽, type: trans}
