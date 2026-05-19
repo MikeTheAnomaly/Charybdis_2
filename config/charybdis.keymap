@@ -77,7 +77,7 @@ bindings = <
 &kp LSHIFT     &kp A  &kp S  &kp D    &kp F     &kp G          &kp H         &kp J          &kp K     &kp L   &kp SEMI  &kp APOS
 &kp LCTRL      &kp Z  &kp X  &kp C    &kp V     &kp B          &kp N         &kp M          &kp COMMA &kp DOT &kp SLASH &kp RSHIFT
                              &kp SPACE &mo MOD   &kp LGUI       &kp BSPC      &kp SPACE
-                                      &mkp LCLK &kp LALT       &kp RCLK
+                                      &mkp LCLK &kp LALT       &mkp RCLK
 >;
 };
 MOD {
